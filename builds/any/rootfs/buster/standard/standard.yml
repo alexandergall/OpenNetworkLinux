@@ -92,6 +92,9 @@ Configure:
     - 'watchdog defaults'
     - 'wd_keepalive remove'
 
+  scripts:
+    - $ONL/create-ansible-user.sh
+
   options:
     clean: True
     securetty: False
